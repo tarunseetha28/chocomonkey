@@ -29,7 +29,6 @@ function Navbar() {
                 <div className="header-left-menu">
                     <Link className="navLink" aria-current="page" to="/">Home</Link>
                     <Link className="navLink" aria-current="page" to="/team">Team</Link>
-                    <Link className="navLink" aria-current="page" to="/">About</Link>
                     <Link className="navLink" aria-current="page" to="/">Mint</Link>
                     <Link className="navLink" aria-current="page" to="/charity">The Charity</Link>
                     <Link className="navLink" aria-current="page" to="/">whitepaper</Link>

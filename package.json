@@ -2,7 +2,7 @@
   "name": "chocolatemonkey",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://tarunseetha28.github.io/chocomonkey",
+  "homepage": "https://tarunseetha28.github.io",
   "dependencies": {
     "-": "0.0.1",
     "@testing-library/jest-dom": "^5.16.4",
