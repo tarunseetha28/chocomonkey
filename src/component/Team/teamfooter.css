@@ -1,0 +1,29 @@
+.footer-team {
+    padding: 5% 5% 2% 5%;
+    background: #F3454A;
+}
+
+.footer-icon-team {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-social-team {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+}
+
+.footer-social-team>img {
+    height: 30px;
+    color: #FEE6D7;
+}
+
+.footer-last-team {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    margin-top: 30px;
+    color: white;
+}

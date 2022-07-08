@@ -1,0 +1,21 @@
+.team {
+    padding-top: 5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    display: flex;
+}
+
+.team-left {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+}
+
+.team-center {
+    flex: 0.1;
+}
+
+.team-right {
+    align-self: self-end;
+    flex: 0.4;
+}

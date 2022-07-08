@@ -1,0 +1,31 @@
+.charity {
+    display: flex;
+    padding-left: 5%;
+}
+
+.charityLeft {
+    display: flex;
+    flex-direction: column;
+    flex: 0.45;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.charityCenter {
+    flex: 0.1;
+}
+
+.charityRight {
+    flex: 0.45;
+}
+
+.charityRight>img {
+    margin-top: -80px;
+    z-index: 1;
+}
+
+.charity-ftr {
+    background: #5D2E28;
+    padding: 5%;
+    color: white;
+}

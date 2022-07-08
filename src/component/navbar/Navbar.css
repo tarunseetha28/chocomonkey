@@ -1,0 +1,39 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* background-color: #fee6d7; */
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.header-left-menu>ul {
+    font-size: 0.8rem;
+}
+
+.header-left {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.header-left-menu {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.navLink {
+    padding: 10px;
+}
+
+.header-right {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+}

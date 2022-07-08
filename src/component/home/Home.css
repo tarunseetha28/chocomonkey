@@ -1,0 +1,210 @@
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+span img {
+    float: left;
+    width: 40px;
+    margin-right: 10px;
+}
+
+a:hover span {
+    color: #ffffff49;
+}
+
+.home-h1 {
+    font-size: 12rem;
+    color: #F0484B;
+    font-family: 'Marlissa';
+    z-index: 2;
+    margin-top: -20px;
+}
+
+.home-h2 {
+    font-size: 10rem;
+    color: #63342E;
+    margin-top: -130px;
+    z-index: 1;
+}
+
+.home-img1 {
+    margin-top: -180px;
+    height: 50rem;
+}
+
+.home-h3 {
+    margin-top: -50px;
+    font-size: 24px;
+    color: #63342E;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.home-gif2 {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.home-about {
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #F0484B;
+    color: white;
+}
+
+.homeAbout-h1 {
+    font-size: 120px;
+    padding-left: 30px;
+    margin-top: -220px;
+}
+
+.home-about2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-aboutFollow {
+    flex: 0.2;
+}
+
+.home-aboutImage {
+    flex: 0.2;
+    align-self: self-end;
+}
+
+.home-aboutExcerpt {
+    flex: 0.6;
+}
+
+.home-aboutFollow {
+    display: flex;
+    flex-direction: column;
+}
+
+.home-aboutFollow>span {
+    margin-bottom: 10px;
+    font-size: 25px;
+}
+
+.home-vision {
+    width: 100%;
+    padding-left: 5%;
+    background-color: #5D2E28;
+    color: white;
+}
+
+.home-vision2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-visionExcerpt {
+    flex: 0.45;
+}
+
+.home-visionCenter {
+    flex: 0.15;
+}
+
+.home-visionImage {
+    flex: 0.4;
+    align-self: self-end;
+}
+
+.home-collections {
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.homeCollections-h1 {
+    font-size: 80px;
+    line-height: 80px;
+    color: #8C6338;
+}
+
+.home-collections-left {
+    flex: 0.44;
+    display: flex;
+    flex-direction: column;
+}
+
+.home-collections-center {
+    flex: 0.1;
+}
+
+.home-collections-right {
+    flex: 0.46;
+    display: flex;
+    flex-direction: column;
+    color: #5D2E28;
+}
+
+.btn {
+    border: 1px solid #F0484B;
+    background-color: #f0484b00;
+    color: #F0484B;
+    padding: 15px;
+}
+
+.btn:hover {
+    border: 1px solid #F0484B;
+    background-color: #F0484B;
+    color: white;
+    padding: 15px;
+}
+
+.btn1 {
+    width: 270px;
+    font-size: 12px;
+}
+
+.btn2 {
+    width: 150px;
+    font-size: 14px;
+}
+
+.home-tokenomics {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 5%;
+}
+
+.home-tokenomicsPie {
+    margin-top: 30px;
+    display: flex;
+    width: 100%;
+    font-size: 30px;
+    color: #8C6338;
+}
+
+.home-tokenomicsPieLeft {
+    flex: 0.46;
+}
+
+.home-tokenomicsPieCenter {
+    flex: 0.08;
+}
+
+.home-tokenomicsPieRight {
+    flex: 0.46;
+}
+
+.home-tokenomicsPieLeft>img {
+    margin-top: 30px;
+}
+
+.home-tokenomicsPieRight>img {
+    margin-top: 30px;
+}
