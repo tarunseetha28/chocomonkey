@@ -15,9 +15,11 @@ function Home() {
         <>
             <Navbar />
             <div className='home'>
-                <span className='home-h1'>Chocolate</span>
-                <span className='home-h2'>MONKEYS</span>
-                <img className='home-img1' src={gif1} alt="" />
+                <div className='home-1'>
+                    <span className='home-h1'>Chocolate</span>
+                    <span className='home-h2'>MONKEYS</span>
+                    <img className='home-img1' src={gif1} alt="" />
+                </div>
                 <span className='home-h3'>Chocolate Monkeys is a collection of<br />
                     10,000 NFTs—unique digital collectibles<br />
                     tied to the Ethereum blockchain.</span>

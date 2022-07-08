@@ -10,7 +10,8 @@ function Contact() {
         <>
             <Header />
             <div className="contact">
-                <img style={{ marginTop: "-100px" }} src={contactimg} alt="" />
+                {/* <img style={{ marginTop: "-100px" }} src={contactimg} alt="" /> */}
+
                 <div className='contact-form'>
                     <span style={{ color: "#63342E", fontSize: "24px", textAlign: "left" }}>Have a question about us or just want to hear more about what we do? Drop us a line.</span>
                     <form style={{ paddingTop: "10px" }}>
@@ -38,6 +39,7 @@ function Contact() {
                         </ul>
                     </form>
                 </div>
+
             </div>
             <ContactFooter />
         </>

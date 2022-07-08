@@ -1,15 +1,22 @@
 .contact {
     position: relative;
-
+    background-image: url('../../assets/icons/contactimg.svg');
+    margin-top: -100px;
+    padding: 150px;
 }
+
+
 
 .contact-form {
     background-color: #FFDBC5;
+    margin-left: 25%;
+    margin-right: 25%;
     padding: 40px;
-    position: absolute;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+    /* position: absolute; */
+    /* top: 55%;
+    left: 50%; */
+    /* transform: translate(-50%, -50%); */
 }
 
 
