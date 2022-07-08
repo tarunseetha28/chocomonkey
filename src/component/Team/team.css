@@ -1,7 +1,11 @@
 .team {
     padding-top: 5%;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding-left: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 2000px;
+    padding-right: 80px;
     display: flex;
 }
 

@@ -1,9 +1,14 @@
 .charity {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
     display: flex;
-    padding-left: 5%;
+    padding-left: 80px;
+    max-width: 2000px;
 }
 
 .charityLeft {
+
     display: flex;
     flex-direction: column;
     flex: 0.45;
@@ -25,7 +30,11 @@
 }
 
 .charity-ftr {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 2000px;
     background: #5D2E28;
-    padding: 5%;
+    padding: 80px;
     color: white;
 }

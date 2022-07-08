@@ -1,4 +1,7 @@
 .footer-contact {
+    max-width: 2000px;
+    margin-left: auto;
+    margin-right: auto;
     padding: 5% 5% 2% 5%;
     background: #FEE6D7;
 }
