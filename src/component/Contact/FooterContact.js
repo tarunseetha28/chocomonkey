@@ -17,7 +17,7 @@ function Footer() {
                 </div>
                 <div className="footer-last-contact">
                     <span>Copyright © 2022 </span>
-                    <span>Terms and Conditions</span>
+                    <span>Terms and conditions</span>
                 </div>
             </div>
         </>
