@@ -9,7 +9,8 @@ import Home from "./component/home/Home";
 import Team from './component/Team/Team'
 import PageNotFound from "./component/pagenotfound/PageNotFound";
 import Charity from './component/Charity/Charity';
-import Contact from './component/Contact/Contact'
+import Contact from './component/Contact/Contact';
+import Mint from './component/Mint/Mint'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/team" element={<Team />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/charity" element={<Charity />} />
+          <Route path="/mint" element={<Mint />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>

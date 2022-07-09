@@ -1,10 +1,7 @@
 .home {
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
-
 }
 
 .home-1 {
@@ -77,6 +74,7 @@ a:hover span {
 }
 
 .homeAbout-h1 {
+    font-weight: bold;
     font-size: 120px;
     padding-left: 30px;
     margin-top: -220px;
@@ -94,6 +92,11 @@ a:hover span {
 .home-aboutImage {
     flex: 0.2;
     align-self: self-end;
+}
+
+.home-aboutImage>img {
+    max-width: none;
+    height: auto;
 }
 
 .home-aboutExcerpt {
@@ -146,6 +149,7 @@ a:hover span {
 }
 
 .homeCollections-h1 {
+    font-weight: bold;
     font-size: 80px;
     line-height: 80px;
     color: #8C6338;
@@ -169,21 +173,23 @@ a:hover span {
 }
 
 .btn {
-    border: 1px solid #F0484B;
-    background-color: #f0484b00;
-    color: #F0484B;
-    padding: 15px;
-}
 
-.btn:hover {
+
     border: 1px solid #F0484B;
     background-color: #F0484B;
     color: white;
     padding: 15px;
 }
 
+.btn:hover {
+    border: 1px solid #F0484B;
+    background-color: #f0484b00;
+    color: #F0484B;
+    padding: 15px;
+}
+
 .btn1 {
-    width: 270px;
+    width: 280px;
     font-size: 12px;
 }
 
@@ -203,6 +209,7 @@ a:hover span {
 }
 
 .home-tokenomicsPie {
+    font-weight: bold;
     margin-top: 30px;
     display: flex;
     width: 100%;

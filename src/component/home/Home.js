@@ -10,6 +10,7 @@ import HomeVision from './HomeVision'
 import AboutCollections from './AboutCollections'
 import Tokenomics from './Tokenomics'
 import Tiimeline from '../Timeline/Timeline'
+
 function Home() {
     return (
         <>

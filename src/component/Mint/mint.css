@@ -1,0 +1,40 @@
+.mint {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mint-1 {
+    background-repeat: no-repeat;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(http://localhost:3000/static/media/contactimg.be8b526ebc8225ab37b5.svg);
+    margin-top: -100px;
+    padding-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 2000px;
+}
+
+.mint-h1 {
+    font-size: 12rem;
+    color: #F0484B;
+    font-family: 'Marlissa';
+    z-index: 2;
+    margin-top: -20px;
+}
+
+.mint-h2 {
+    font-size: 10rem;
+    color: #63342E;
+    margin-top: -130px;
+    z-index: 1;
+    font-weight: bold;
+}
+
+.mint-img1 {
+    margin-top: -180px;
+    height: 50rem;
+}

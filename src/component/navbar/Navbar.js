@@ -29,9 +29,9 @@ function Navbar() {
                 <div className="header-left-menu">
                     <Link className="navLink" aria-current="page" to="/">Home</Link>
                     <Link className="navLink" aria-current="page" to="/team">Team</Link>
-                    <Link className="navLink" aria-current="page" to="/">Mint</Link>
+                    <Link className="navLink" aria-current="page" to="/mint">Mint</Link>
                     <Link className="navLink" aria-current="page" to="/charity">The Charity</Link>
-                    <Link className="navLink" aria-current="page" to="/">whitepaper</Link>
+                    <Link className="navLink" aria-current="page" to="/">Whitepaper</Link>
                     <Link className="navLink" aria-current="page" to="/contact">Contact</Link>
                 </div>
                 <a href="https://discord.com/invite/MKYFkDh6yw" className='navLink' target="_blank"><img src={discord} style={{ height: "1.2rem" }} alt="" /></a>
