@@ -1,0 +1,47 @@
+input::placeholder {
+    color: #814038;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.input-price::placeholder {
+    color: red;
+    font-weight: 500;
+}
+
+
+.buy-mint {
+    /* position: fixed;
+    bottom: 0; */
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    max-width: 2000px;
+    padding: 20px 10%;
+}
+
+textarea:focus,
+input:focus {
+    outline: none;
+}
+
+.mint-input {
+    background-color: #fee6d7;
+    padding: 10px;
+}
+
+.mint-input>:active {
+    border: none;
+}
+
+.input-group-presuffix {
+    font-weight: 500;
+    background-color: #fee6d7;
+    color: #814038;
+    padding: 10px;
+    background-color: #fee6d7;
+}
