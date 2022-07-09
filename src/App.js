@@ -11,11 +11,13 @@ import PageNotFound from "./component/pagenotfound/PageNotFound";
 import Charity from './component/Charity/Charity';
 import Contact from './component/Contact/Contact';
 import Mint from './component/Mint/Mint'
+import ScrollToTop from "./component/ScrollToTop";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/team" element={<Team />} />
