@@ -10,10 +10,14 @@ import HomeVision from './HomeVision'
 import AboutCollections from './AboutCollections'
 import Tokenomics from './Tokenomics'
 import Tiimeline from '../Timeline/Timeline'
+import { Helmet } from 'react-helmet';
 
 function Home() {
     return (
         <>
+            <Helmet>
+                <title>Chocolate Monkeys | Home</title>
+            </Helmet>
             <Navbar />
             <div className='home'>
                 <div className='home-1'>

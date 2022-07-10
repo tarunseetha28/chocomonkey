@@ -3,9 +3,13 @@ import './charity.css'
 import Footer from '../footer/Footer';
 import Header from '../navbar/Navbar';
 import charity from '../../assets/icons/charity.svg'
+import { Helmet } from 'react-helmet';
 function Charity() {
     return (
         <>
+            <Helmet>
+                <title>Chocolate Monkeys | Charity</title>
+            </Helmet>
             <Header />
             <div className='charity'>
                 <div className='charityLeft'>

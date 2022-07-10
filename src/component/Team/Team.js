@@ -4,9 +4,13 @@ import TeamFooter from './TeamFooter.js'
 import './team.css'
 import brian from '../../assets/icons/brian.svg'
 import teex from '../../assets/images/teex.png'
+import { Helmet } from 'react-helmet';
 function team() {
     return (
         <>
+            <Helmet>
+                <title>Chocolate Monkeys | Team</title>
+            </Helmet>
             <Header />
             <div className='team'>
                 <div className="team-left">

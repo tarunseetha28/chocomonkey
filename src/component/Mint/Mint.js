@@ -5,10 +5,13 @@ import Footer from '../Contact/FooterContact'
 import gif1 from '../../assets/gif/gif1.gif'
 import MintSlider from './MintSlider'
 import BuyMint from './BuyMint'
-
+import { Helmet } from 'react-helmet';
 function Mint() {
     return (
         <>
+            <Helmet>
+                <title>Chocolate Monkeys | Mint</title>
+            </Helmet>
             <Header />
             <div className="mint">
                 <div className="mint-1">

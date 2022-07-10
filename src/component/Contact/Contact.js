@@ -2,10 +2,13 @@ import React from 'react'
 import './contact.css'
 import Header from '../navbar/Navbar'
 import ContactFooter from './FooterContact.js'
-
+import { Helmet } from 'react-helmet';
 function Contact() {
     return (
         <>
+            <Helmet>
+                <title>Chocolate Monkeys | Contact</title>
+            </Helmet>
             <Header />
             <div className="contact">
                 {/* <img style={{ marginTop: "-100px" }} src={contactimg} alt="" /> */}
