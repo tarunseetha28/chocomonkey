@@ -40,8 +40,10 @@ function Navbar() {
                 <a href="https://www.instagram.com/chocolatemonkeysnft5/" className='navLink' target="_blank"><img src={instagram} style={{ height: "1.2rem" }} alt="" /></a>
             </div>
             <div className="hamb-menu">
+
                 <img style={{ marginTop: "auto", marginBottom: "auto", height: "20px" }} src={hamburgericon} alt="" />
             </div>
+
         </div>
 
     )
