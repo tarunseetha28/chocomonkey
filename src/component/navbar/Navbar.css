@@ -63,3 +63,16 @@
     margin-top: auto;
     margin-bottom: auto;
 }
+
+.ant-drawer-header {
+    background-color: #fee6d7 !important;
+}
+
+.ant-drawer-body {
+    background-color: #fee6d7 !important;
+}
+
+.hamb-menuli {
+    display: flex;
+    flex-direction: column;
+}

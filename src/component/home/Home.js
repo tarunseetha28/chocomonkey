@@ -11,7 +11,7 @@ import AboutCollections from './AboutCollections'
 import Tokenomics from './Tokenomics'
 import Tiimeline from '../Timeline/Timeline'
 import { Helmet } from 'react-helmet';
-
+import { Button } from 'antd'
 function Home() {
     return (
         <>

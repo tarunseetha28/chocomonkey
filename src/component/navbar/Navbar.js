@@ -9,7 +9,7 @@ import cmlogo from "../../../src/assets/icons/cmlogo.svg"
 import discord from "../../../src/assets/icons/discord.svg"
 import instagram from "../../../src/assets/icons/instagram.svg"
 import twitter from "../../../src/assets/icons/twitter.svg"
-import hamburgericon from "../../assets/icons/hamburgericon.svg"
+import Hamburger from './Hamburger.js';
 import "./Navbar.css"
 function Navbar() {
     return (
@@ -39,10 +39,7 @@ function Navbar() {
                 <a href="https://twitter.com/ChocoMonkeys" className='navLink' target="_blank"><img src={twitter} style={{ height: "1.2rem" }} alt="" /></a>
                 <a href="https://www.instagram.com/chocolatemonkeysnft5/" className='navLink' target="_blank"><img src={instagram} style={{ height: "1.2rem" }} alt="" /></a>
             </div>
-            <div className="hamb-menu">
-
-                <img style={{ marginTop: "auto", marginBottom: "auto", height: "20px" }} src={hamburgericon} alt="" />
-            </div>
+            <Hamburger />
 
         </div>
 
