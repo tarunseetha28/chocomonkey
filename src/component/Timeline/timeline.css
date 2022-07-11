@@ -3,8 +3,8 @@
     background-color: #5D2E28;
     width: 100%;
     max-width: 2000px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 .timeline-container {
@@ -167,6 +167,20 @@
     .timeline-item-content a::after {
         display: none;
     }
+
+    .timeline-item-heading {
+        font-size: 20px !important;
+    }
+
+    .timeline-item-desc {
+        font-size: 12px !important;
+    }
+
+    .home-timeline-heading {
+        font-size: 50px !important;
+    }
+
+
 }
 
 footer {
@@ -192,4 +206,22 @@ footer i {
 footer a {
     color: #3c97bf;
     text-decoration: none;
+}
+
+.timeline-item-heading {
+    color: white;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+.timeline-item-desc {
+    color: white;
+    font-size: 16px;
+}
+
+.home-timeline-heading {
+    padding-left: 30px;
+    font-size: 85px;
+    color: white;
+    font-weight: bold;
 }

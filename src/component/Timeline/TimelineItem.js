@@ -3,8 +3,8 @@ import './timeline.css'
 const TimelineItem = ({ data }) => (
     <div className="timeline-item">
         <div className="timeline-item-content">
-            <span style={{ color: "white", fontSize: "28px", fontWeight: 900 }}>{data.text}</span>
-            <span style={{ color: "white", fontSize: "18px" }}>{data.desc}</span>
+            <span className='timeline-item-heading' >{data.text}</span>
+            <span className='timeline-item-desc' >{data.desc}</span>
         </div>
     </div>
 );

@@ -6,6 +6,8 @@
 
 .home-1 {
     background-repeat: no-repeat;
+    padding-left: 3vw;
+    padding-right: 3vw;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -30,27 +32,30 @@ a:hover span {
 }
 
 .home-h1 {
-    font-size: 12rem;
+    font-size: 150px;
     color: #F0484B;
     font-family: 'Marlissa';
     z-index: 2;
-    margin-top: -20px;
+    margin-top: -5px;
 }
 
 .home-h2 {
-    font-size: 10rem;
+    font-size: 120px;
     color: #63342E;
-    margin-top: -130px;
+    margin-top: -85px;
     z-index: 1;
     font-weight: bold;
 }
 
 .home-img1 {
-    margin-top: -180px;
-    height: 50rem;
+    margin-top: -130px;
+    width: 700px;
+    /* height: 50rem; */
 }
 
 .home-h3 {
+    padding-left: 3vw;
+    padding-right: 3vw;
     font-size: 24px;
     color: #63342E;
     text-align: center;
@@ -68,15 +73,15 @@ a:hover span {
     max-width: 2000px;
     width: 100%;
     padding-top: 100px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 3vw;
+    padding-right: 3vw;
     background-color: #F0484B;
     color: white;
 }
 
 .homeAbout-h1 {
     font-weight: bold;
-    font-size: 120px;
+    font-size: 85px;
     padding-left: 30px;
     margin-top: -220px;
 }
@@ -84,6 +89,90 @@ a:hover span {
 .home-about2 {
     display: flex;
     justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+    .home-h1 {
+        font-size: 15vw !important;
+    }
+
+    .home-h2 {
+        font-size: 15vw !important;
+        margin-top: -12vw !important
+    }
+
+    .home-h3 {
+        font-size: 3vw !important;
+    }
+
+    .homeAbout-h1 {
+        font-size: 50px !important
+    }
+
+    .home-about {
+        padding-top: 30px !important;
+    }
+
+    .home-aboutFollow {
+        padding-bottom: 30px !important
+    }
+
+    .home-about2 {
+        display: flex !important;
+        padding-bottom: 30px !important;
+        flex-direction: column !important;
+    }
+
+    .home-aboutImage {
+        display: none !important;
+    }
+
+    .home-vision2 {
+        display: flex !important;
+        flex-direction: column !important;
+        padding-right: 3vw !important;
+    }
+
+    .home-visionImage {
+        width: 300px !important;
+    }
+
+    .home-collections {
+        flex-direction: column !important
+    }
+
+    .home-aboutExcerpt {
+        font-size: 14px !important;
+    }
+
+    .home-visionExcerpt {
+        font-size: 14px !important;
+    }
+
+    .homeCollectionsExcerpt {
+        font-size: 14px !important;
+    }
+
+    .home-tokenomicsExcerpt {
+        font-size: 14px !important;
+    }
+
+    .homeCollections-h1 {
+        font-size: 50px !important;
+        line-height: 40px !important;
+    }
+
+    .home-tokenomicsPie {
+        font-size: 20px !important;
+        line-height: 18px !important
+    }
+
+    .home-img1 {
+        width: 50vw !important;
+        margin-top: -12vw !important;
+    }
+
+
 }
 
 .home-aboutFollow {
@@ -102,6 +191,7 @@ a:hover span {
 
 .home-aboutExcerpt {
     flex: 0.6;
+    font-size: 16px;
 }
 
 .home-aboutFollow {
@@ -117,7 +207,7 @@ a:hover span {
 .home-vision {
     max-width: 2000px;
     width: 100%;
-    padding-left: 80px;
+    padding-left: 3vw;
     background-color: #5D2E28;
     color: white;
 }
@@ -129,6 +219,7 @@ a:hover span {
 
 .home-visionExcerpt {
     flex: 0.45;
+    font-size: 16px;
 }
 
 .home-visionCenter {
@@ -145,15 +236,19 @@ a:hover span {
     display: flex;
     width: 100%;
     padding-top: 100px;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 3vw;
+    padding-right: 3vw;
 }
 
 .homeCollections-h1 {
     font-weight: bold;
-    font-size: 80px;
-    line-height: 80px;
+    font-size: 85px;
+    line-height: 65px;
     color: #8C6338;
+}
+
+.homeCollectionsExcerpt {
+    font-size: 16px;
 }
 
 .home-collections-left {
@@ -204,18 +299,23 @@ a:hover span {
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 3vw;
+    padding-right: 3vw;
     padding-bottom: 5%;
 }
 
 .home-tokenomicsPie {
+    display: flex;
     font-weight: bold;
     margin-top: 30px;
     display: flex;
     width: 100%;
-    font-size: 30px;
+    font-size: 24px;
     color: #8C6338;
+}
+
+.home-tokenomicsExcerpt {
+    font-size: 16px;
 }
 
 .home-tokenomicsPieLeft {

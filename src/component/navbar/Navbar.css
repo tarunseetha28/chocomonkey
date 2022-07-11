@@ -3,8 +3,8 @@
     margin-left: auto;
     display: flex;
     justify-content: space-between;
-    padding-left: 80px;
-    padding-right: 80px;
+    padding-left: 3vw;
+    padding-right: 3vw;
     padding-top: 10px;
     padding-bottom: 10px;
     /* background-color: #fee6d7; */
@@ -19,6 +19,11 @@
     display: none;
 }
 
+.header-icon {
+    height: 55px;
+}
+
+
 @media (max-width: 900px) {
     .header-right {
         display: none !important;
@@ -27,6 +32,10 @@
     .hamb-menu {
         display: flex !important;
     }
+
+    /* .header-icon {
+        height: 8vw;
+    } */
 }
 
 .header-left-menu>ul {

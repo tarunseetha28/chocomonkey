@@ -28,7 +28,7 @@ function Home() {
                 <span className='home-h3'>Chocolate Monkeys is a collection of<br />
                     10,000 NFTs—unique digital collectibles<br />
                     tied to the Ethereum blockchain.</span>
-                <button ><img style={{ height: "40px" }} src={openseabtn} alt="" /></button>
+                <button ><img style={{ width: "220px" }} src={openseabtn} alt="" /></button>
                 <img className='home-gif2' src={gif2} alt="" />
                 <HomeAbout />
                 <HomeVision />

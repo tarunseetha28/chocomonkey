@@ -19,8 +19,8 @@ function Navbar() {
                 <div>
                     <Link to="/">
                         <img
+                            className='header-icon'
                             src={cmlogo}
-                            style={{ height: "5rem" }}
                             alt="example"
                         />
                     </Link>
@@ -40,7 +40,7 @@ function Navbar() {
                 <a href="https://www.instagram.com/chocolatemonkeysnft5/" className='navLink' target="_blank"><img src={instagram} style={{ height: "1.2rem" }} alt="" /></a>
             </div>
             <div className="hamb-menu">
-                <img style={{ marginTop: "auto", marginBottom: "auto", height: "25px" }} src={hamburgericon} alt="" />
+                <img style={{ marginTop: "auto", marginBottom: "auto", height: "20px" }} src={hamburgericon} alt="" />
             </div>
         </div>
 

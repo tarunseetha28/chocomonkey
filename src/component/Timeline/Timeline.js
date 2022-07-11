@@ -7,7 +7,7 @@ const Timeline = () => timelineData.length > 0 && (
     <>
 
         <div className='home-timeline'>
-            <span style={{ paddingLeft: "30px", fontSize: "120px", color: "white", fontWeight: 'bold' }}>ROADMAP</span>
+            <span className='home-timeline-heading'>ROADMAP</span>
             <div className="timeline-container">
                 {timelineData.map((data, idx) => (
                     <TimelineItem data={data} key={idx} />
