@@ -19,11 +19,13 @@
 
 .mint-1 {
     background-repeat: no-repeat;
+    /* padding-left: 3vw;
+    padding-right: 3vw; */
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(../../assets/icons/contactimg.svg);
+    background-image: url(http://localhost:3000/static/media/contactimg.be8b526ebc8225ab37b5.svg);
     background-size: cover;
     margin-top: -100px;
     padding-top: 100px;
@@ -33,17 +35,17 @@
 }
 
 .mint-h1 {
-    font-size: 12rem;
+    font-size: 150px;
     color: #F0484B;
     font-family: 'Marlissa';
     z-index: 2;
-    margin-top: -20px;
+    margin-top: -5px;
 }
 
 .mint-h2 {
-    font-size: 10rem;
+    font-size: 120px;
     color: #63342E;
-    margin-top: -130px;
+    margin-top: -85px;
     z-index: 1;
     font-weight: bold;
 }
@@ -56,12 +58,28 @@
 .mint-itr {
     display: flex;
     flex-direction: column;
-    padding-top: 150px;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-top: 120px;
+    padding-left: 10vw;
+    padding-right: 10vw;
     margin-left: auto;
     margin-right: auto;
     width: 100%;
     max-width: 2000px;
     display: flex;
+}
+
+@media (max-width:900px) {
+    .mint-h1 {
+        font-size: 15vw !important;
+    }
+
+    .mint-h2 {
+        font-size: 15vw !important;
+        margin-top: -12vw !important
+    }
+
+    .mint-list {
+        font-size: 16px !important;
+        line-height: 35px !important;
+    }
 }

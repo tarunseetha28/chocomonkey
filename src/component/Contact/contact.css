@@ -5,23 +5,41 @@
     position: relative;
     background-image: url('../../assets/icons/contactimg.svg');
     margin-top: -100px;
-    padding: 150px;
+    padding-left: 10vw;
     background-repeat: no-repeat;
     background-size: cover;
+    padding-right: 10vw;
+    padding-top: 120px;
 }
 
+@media (max-width:900px) {
+    .contact {
+        padding-left: 6vw !important;
+        padding-right: 6vw !important;
+    }
 
+    .contact-form {
+        margin: 0px !important;
+        padding: 5vw !important;
+    }
+
+    .contact-formDesc {
+        font-size: 18px !important;
+    }
+}
+
+.contact-formDesc {
+    color: #63342E;
+    font-size: 24px;
+    text-align: left;
+    font-weight: 500;
+}
 
 .contact-form {
     background-color: #FFDBC5;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 10vw;
+    margin-right: 10vw;
     padding: 40px;
-
-    /* position: absolute; */
-    /* top: 55%;
-    left: 50%; */
-    /* transform: translate(-50%, -50%); */
 }
 
 

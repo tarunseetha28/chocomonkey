@@ -14,7 +14,7 @@ function Contact() {
                 {/* <img style={{ marginTop: "-100px" }} src={contactimg} alt="" /> */}
 
                 <div className='contact-form'>
-                    <span style={{ color: "#63342E", fontSize: "24px", textAlign: "left", fontWeight: '500' }}>Have a question about us or just want to hear more about what we do? Drop us a line.</span>
+                    <span className='contact-formDesc' >Have a question about us or just want to hear more about what we do? Drop us a line.</span>
                     <form style={{ paddingTop: "10px" }}>
                         <ul class="form-style-1">
                             <li><label>Full Name <span class="required">*</span></label><input type="text" name="field1" class="field-divided" placeholder="First" /> <input type="text" name="field2" class="field-divided" placeholder="Last" /></li>

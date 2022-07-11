@@ -13,7 +13,7 @@
     margin: 0 auto;
     position: relative;
     display: flex;
-    margin-top: -125px;
+    margin-top: -94px;
 
     &:hover div {
         animation-play-state: paused;
@@ -54,6 +54,10 @@
     @media (max-width:900px) {
         --image-size: #{$min-image-size};
         --image-size: min(max(#{$min-image-size}, 10vw), #{$max-image-size});
+
+
+        margin-top: 0px !important;
+
     }
 
 }

@@ -13,11 +13,11 @@ function Charity() {
             <Header />
             <div className='charity'>
                 <div className='charityLeft'>
-                    <span style={{ color: "#63342E", fontSize: "120px", lineHeight: "100px", fontWeight: 'bold' }}>CHARITY</span>
-                    <span style={{ marginTop: "30px", color: "#63342E", fontSize: "24px", fontWeight: '500' }}>One of the components of Chocolate Monkeys that is super important to us is the charity aspect. We plan to give 15% of each purchase of a Chocolate Monkey NFT to charity.</span>
+                    <span className='charityLeftHeader'>CHARITY</span>
+                    <span className='charityLeftExcerpt'>One of the components of Chocolate Monkeys that is super important to us is the charity aspect. We plan to give 15% of each purchase of a Chocolate Monkey NFT to charity.</span>
                     <button style={{ marginTop: "30px", fontWeight: 'bold' }} className='btn btn1'>MAKE YOUR CONTRIBUTION</button>
                 </div>
-                <div className='charityCenter'></div>
+
                 <div className='charityRight'>
                     <img src={charity} alt="" />
                 </div>
