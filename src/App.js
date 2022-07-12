@@ -14,6 +14,7 @@ import Mint from './component/Mint/Mint'
 import ScrollToTop from "./component/ScrollToTop";
 import News from "./component/NewsArticles/News";
 import Media from "./component/Media/Media";
+import Press from "./component/PressRelease/Press";
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           <Route path="/mint" element={<Mint />} />
           <Route path="/news" element={<News />} />
           <Route path="/media" element={<Media />} />
+          <Route path="/press" element={<Press />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
