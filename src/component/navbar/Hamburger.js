@@ -35,6 +35,8 @@ function Hamburger() {
                     <Link className="navLink" aria-current="page" to="/charity">The Charity</Link>
                     <Link className="navLink" aria-current="page" to="/">Whitepaper</Link>
                     <Link className="navLink" aria-current="page" to="/contact">Contact</Link>
+                    <Link className="navLink" aria-current="page" to="/news">News & articles</Link>
+                    <Link className="navLink" aria-current="page" to="/media">Media</Link>
                 </div>
 
             </Drawer>

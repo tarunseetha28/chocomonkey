@@ -34,6 +34,8 @@ function Navbar() {
                     <Link className="navLink" aria-current="page" to="/charity">The Charity</Link>
                     <Link className="navLink" aria-current="page" to="/">Whitepaper</Link>
                     <Link className="navLink" aria-current="page" to="/contact">Contact</Link>
+                    <Link className="navLink" aria-current="page" to="/news">News</Link>
+                    <Link className="navLink" aria-current="page" to="/media">Media</Link>
                 </div>
                 <a href="https://discord.com/invite/MKYFkDh6yw" className='navLink' target="_blank"><img src={discord} style={{ height: "1.2rem" }} alt="" /></a>
                 <a href="https://twitter.com/ChocoMonkeys" className='navLink' target="_blank"><img src={twitter} style={{ height: "1.2rem" }} alt="" /></a>

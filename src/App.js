@@ -12,6 +12,8 @@ import Charity from './component/Charity/Charity';
 import Contact from './component/Contact/Contact';
 import Mint from './component/Mint/Mint'
 import ScrollToTop from "./component/ScrollToTop";
+import News from "./component/NewsArticles/News";
+import Media from "./component/Media/Media";
 
 function App() {
   return (
@@ -24,6 +26,8 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/charity" element={<Charity />} />
           <Route path="/mint" element={<Mint />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/media" element={<Media />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
