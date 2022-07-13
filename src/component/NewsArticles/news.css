@@ -34,7 +34,7 @@
 .news-container {
     grid-gap: 1rem;
     display: grid;
-    grid-template-columns: repeat(auto-fill, 450px);
+    grid-template-columns: repeat(auto-fill, 400px);
     justify-content: space-between;
     margin-top: 30px;
     margin-bottom: 30px;

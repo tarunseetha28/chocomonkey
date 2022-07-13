@@ -76,3 +76,13 @@
     display: flex;
     flex-direction: column;
 }
+
+.nav-social {
+    margin-top: 20px;
+    display: flex;
+    column-gap: 10px;
+}
+
+.nav-img {
+    height: 1.5rem;
+}
