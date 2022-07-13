@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.929336b8.css",
-    "main.js": "/static/js/main.01a573cf.js",
+    "main.css": "/static/css/main.df3d1238.css",
+    "main.js": "/static/js/main.eacc5276.js",
     "static/js/787.45e860b0.chunk.js": "/static/js/787.45e860b0.chunk.js",
     "static/media/charity.svg": "/static/media/charity.d6742f8ac576b83cdc83ceb9b2dffc13.svg",
     "static/media/gif1.gif": "/static/media/gif1.ef576b8115bb4bab8fc0.gif",
@@ -38,16 +38,24 @@
     "static/media/twitterftr.svg": "/static/media/twitterftr.5f9f5738eb563a96b7729188fbd7b4bd.svg",
     "static/media/instagram.svg": "/static/media/instagram.3f7a2c3d47fe28bd0a6bf71c0ac59d8f.svg",
     "static/media/twitter.svg": "/static/media/twitter.58400ee0a6adf52a30992967f0e5db8c.svg",
+    "static/media/reddit.svg": "/static/media/reddit.c2c400226ff339cca880c49574ca8598.svg",
     "index.html": "/index.html",
+    "static/media/redditr.svg": "/static/media/redditr.f764f741409c667cfb5b8c05f4acf318.svg",
     "static/media/cobrbtn.svg": "/static/media/cobrbtn.979f6958e1c77a7afcd3244f52108184.svg",
+    "static/media/telegram.svg": "/static/media/telegram.77e15cfa200f51d39f29caadc5d7f6cb.svg",
+    "static/media/medium.svg": "/static/media/medium.028dcf720cec43b224ff0533a2c3d2f2.svg",
+    "static/media/telegramr.svg": "/static/media/telegramr.4deca9c3bde294a3eb4f33021ac3b93a.svg",
     "static/media/monkeystext.svg": "/static/media/monkeystext.b06b2ef775dae36ba187876350c823b2.svg",
+    "static/media/mediumr.svg": "/static/media/mediumr.f1f54285ca7f8218946c732314342fce.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.6dd1240f920b9ac5019289774b1e604d.svg",
+    "static/media/linkedinr.svg": "/static/media/linkedinr.750c8b0e677c6bb0dfa5fda7a9996555.svg",
     "static/media/bullet.svg": "/static/media/bullet.e9752ddb8d81e6f70e71.svg",
-    "main.929336b8.css.map": "/static/css/main.929336b8.css.map",
-    "main.01a573cf.js.map": "/static/js/main.01a573cf.js.map",
+    "main.df3d1238.css.map": "/static/css/main.df3d1238.css.map",
+    "main.eacc5276.js.map": "/static/js/main.eacc5276.js.map",
     "787.45e860b0.chunk.js.map": "/static/js/787.45e860b0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.929336b8.css",
-    "static/js/main.01a573cf.js"
+    "static/css/main.df3d1238.css",
+    "static/js/main.eacc5276.js"
   ]
 }
