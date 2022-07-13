@@ -45,3 +45,66 @@ input:focus {
     padding: 10px;
     background-color: #fee6d7;
 }
+
+.mint-input {
+    width: 20%;
+}
+
+.input-group-presuffix {
+    width: 35%;
+}
+
+.btn-nft {
+    font-weight: bold;
+    width: 15%;
+}
+
+.btn-opn {
+    font-weight: bold;
+    width: 25%;
+}
+
+.buy-mintM {
+    bottom: 0;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    max-width: 2000px;
+    padding: 20px 10vw;
+}
+
+.mint-inputM {
+    width: 100% !important;
+}
+
+.input-group-presuffixM {
+    width: 100% !important;
+}
+
+.btn-nftM {
+    width: 100% !important;
+}
+
+.btn-opnM {
+    width: 100% !important;
+}
+
+.buy-mintM {
+    display: none;
+}
+
+@media (max-width:900px) {
+    .buy-mint {
+        display: none !important;
+    }
+
+    .buy-mintM {
+        display: flex !important;
+    }
+}

@@ -68,6 +68,8 @@
     display: flex;
 }
 
+
+
 @media (max-width:900px) {
     .mint-h1 {
         font-size: 15vw !important;
