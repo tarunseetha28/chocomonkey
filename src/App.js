@@ -15,6 +15,7 @@ import ScrollToTop from "./component/ScrollToTop";
 import News from "./component/NewsArticles/News";
 import Media from "./component/Media/Media";
 import Press from "./component/PressRelease/Press";
+import Token from "./component/Token/Token";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/news" element={<News />} />
           <Route path="/media" element={<Media />} />
           <Route path="/press" element={<Press />} />
+          <Route path="/token" element={<Token />} />
           <Route path="*" element={<PageNotFound />} />
         </Routes>
       </BrowserRouter>
