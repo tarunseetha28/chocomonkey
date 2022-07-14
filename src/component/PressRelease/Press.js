@@ -4,8 +4,12 @@ import PressItem from './PressItem'
 import './Press.css'
 import Header from '../navbar/Navbar'
 import Footer from '../Contact/FooterContact'
+import Helmet from 'react-helmet';
 const Press = () => PressData.length > 0 && (
     <>
+        <Helmet>
+            <title>Chocolate Monkeys | Press</title>
+        </Helmet>
         <Header />
         <div className='press'>
             <span className='press-heading'>PRESS RELEASE</span>

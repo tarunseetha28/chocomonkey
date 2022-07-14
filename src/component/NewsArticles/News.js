@@ -4,8 +4,12 @@ import NewsItem from './newsitem'
 import './news.css'
 import Header from '../navbar/Navbar'
 import Footer from '../Contact/FooterContact'
+import Helmet from 'react-helmet';
 const News = () => NewsData.length > 0 && (
     <>
+        <Helmet>
+            <title>Chocolate Monkeys | News</title>
+        </Helmet>
         <Header />
         <div className='news'>
             <span className='news-heading'>NEWS & ARTICLES</span>

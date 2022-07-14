@@ -1,12 +1,28 @@
 import React from 'react'
+import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import cmlogo from "../../../src/assets/icons/cmlogo.svg"
 import Hamburger from './Hamburger.js';
 import "./Navbar.css"
-function Navbar() {
-    return (
 
-        <div className="header">
+
+
+function Navbar() {
+    const changeBackground = () => {
+        console.log(window.scrollY)
+        if (window.scrollY >= 66) {
+            setNavbar(true)
+        } else {
+            setNavbar(false)
+        }
+    }
+    useEffect(() => {
+        changeBackground()
+        window.addEventListener("scroll", changeBackground)
+    })
+    const [navbar, setNavbar] = useState(false)
+    return (
+        <div className={navbar ? "header header-active" : "header"} >
             <div className="header-left">
                 <div>
                     <Link to="/">

@@ -4,8 +4,12 @@ import MediaItem from './MediaItem'
 import './Media.css'
 import Header from '../navbar/Navbar'
 import Footer from '../Contact/FooterContact'
+import Helmet from 'react-helmet';
 const Media = () => MediaData.length > 0 && (
     <>
+        <Helmet>
+            <title>Chocolate Monkeys | Media</title>
+        </Helmet>
         <Header />
         <div className='media'>
             <span className='media-heading'>Media</span>

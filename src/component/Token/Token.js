@@ -4,10 +4,13 @@ import Header from './TokenNavbar'
 import Footer from '../Contact/FooterContact'
 import tokenleft from '../../assets/icons/tokenleft.svg'
 import tokenbar from '../../assets/icons/tokenbar.svg'
-
+import Helmet from 'react-helmet'
 function Token() {
     return (
         <>
+            <Helmet>
+                <title>Chocolate Monkeys | Token</title>
+            </Helmet>
             <Header />
             <div className='token'>
                 <div className="token-left">

@@ -15,6 +15,10 @@
     margin-right: auto;
 }
 
+.header-active {
+    background-color: #fee6d7;
+}
+
 .hamb-menu {
     display: none;
 }
