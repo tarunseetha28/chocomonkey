@@ -16,7 +16,7 @@ function team() {
                 <div className="team-left">
                     <span className='team-heading'>BRIAN RUBASH</span>
                     <span className='team-headingExcerpt' style={{ marginTop: "30px", color: "#63342E" }}>Brian began designing websites in 1996 after combining his marketing and computer science degrees. Brian has worked for and produced digital experiences for companies such as Make-A-Wish, MS Society, Hasbro, Lucasfilm, Disney, Cartoon Network, McDonalds, Mattel, and others. He was also a member of the digital team that helped launch the first Furby toy in 1998.<br /><br />
-                        Brian has developed and worked on early virtual worlds such as Shining Stars, SeaPals World, and Mattel's American Girl World, as well as raised venture funding for various firms in the gaming and entertainment area.</span>
+                        Brian has also Studied economics of blockchain and cryptocurrency at The Wharton School. Brian has developed and worked on early virtual worlds such as Shining Stars, SeaPals World, and Mattel's American Girl World, as well as raised venture funding for various firms in the gaming and entertainment area.</span>
                 </div>
                 {/* <div className="team-center"></div> */}
                 <div className="team-right">

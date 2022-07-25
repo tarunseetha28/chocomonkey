@@ -43,9 +43,9 @@ function Navbar() {
                     <Link className="navLink" aria-current="page" to="/charity">The Charity</Link>
                     <Link className="navLink" aria-current="page" to="/">Whitepaper</Link>
                     <Link className="navLink" aria-current="page" to="/contact">Contact</Link>
-                    <Link className="navLink" aria-current="page" to="/news">News</Link>
+                    {/* <Link className="navLink" aria-current="page" to="/news">News</Link>
                     <Link className="navLink" aria-current="page" to="/media">Media</Link>
-                    <Link className="navLink" aria-current="page" to="/press">Press</Link>
+                    <Link className="navLink" aria-current="page" to="/press">Press</Link> */}
                 </div>
 
             </div>

@@ -12,6 +12,8 @@ import Tokenomics from './Tokenomics'
 import Tiimeline from '../Timeline/Timeline'
 import { Helmet } from 'react-helmet';
 import { Button } from 'antd'
+
+import { Link } from 'react-router-dom'
 function Home() {
     return (
         <>
@@ -28,7 +30,8 @@ function Home() {
                 <span className='home-h3'>Chocolate Monkeys is a collection of<br />
                     10,000 NFTs—unique digital collectibles<br />
                     tied to the Ethereum blockchain.</span>
-                <button ><img style={{ width: "220px" }} src={openseabtn} alt="" /></button>
+                <Link className="navLink" aria-current="page" to="/mint"><button onClick='/mint' className='btn btn-1' >Learn more</button></Link>
+
                 <img className='home-gif2' src={gif2} alt="" />
                 <HomeAbout />
                 <HomeVision />

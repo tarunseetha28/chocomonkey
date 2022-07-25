@@ -16,7 +16,7 @@ function Token() {
                 <div className="token-left">
                     <span className='token-leftHeader'>CHOCO COIN</span>
                     <span className='token-leftExcerpt'>We are also introducing the new Chocolate Coin (CHOCO) which helps to grow the Chocolate Monkeys ecosystem. This will be available both online and offline if we do our jobs well and you embrace our Chocolate Monkeys! Become an owner and help us create something super exciting!</span>
-                    <button style={{ marginTop: "30px", fontWeight: 'bold' }} className='btnTkn btn1Tkn'>BUY CHOCO COIN</button>
+                    <button style={{ marginTop: "30px", fontWeight: 'bold' }} className='btnTkn btn1Tkn'>COMING SOON</button>
                 </div>
                 <div className="token-right">
                     <img src={tokenleft} alt="" />
