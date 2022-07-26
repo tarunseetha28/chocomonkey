@@ -11,6 +11,8 @@ import reddit from '../../assets/icons/redditr.svg'
 import telegram from '../../assets/icons/telegramr.svg'
 import medium from '../../assets/icons/mediumr.svg'
 import { Drawer, Button } from 'antd'
+import pdf from '../../assets/whitepaper/whitepaper.pdf'
+
 function Hamburger() {
     const [visible, setVisible] = useState(false);
 
@@ -41,7 +43,7 @@ function Hamburger() {
                     <Link className="navLink" aria-current="page" to="/mint">Mint</Link>
                     <Link className="navLink" aria-current="page" to="/token">Token</Link>
                     <Link className="navLink" aria-current="page" to="/charity">The Charity</Link>
-                    <Link className="navLink" aria-current="page" to="/">Whitepaper</Link>
+                    <a className="navLink" href={pdf} target="_blank" rel="noreferrer"> Whitepaper </a>
                     <Link className="navLink" aria-current="page" to="/contact">Contact</Link>
                     <Link className="navLink" aria-current="page" to="/news">News & articles</Link>
                     <Link className="navLink" aria-current="page" to="/media">Media</Link>
