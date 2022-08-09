@@ -27,9 +27,9 @@ function Navbar() {
                     <Link className="token-navLink" aria-current="page" to="/charity">The Charity</Link>
                     <Link className="token-navLink" aria-current="page" to="/">Whitepaper</Link>
                     <Link className="token-navLink" aria-current="page" to="/contact">Contact</Link>
-                    <Link className="token-navLink" aria-current="page" to="/news">News</Link>
-                    <Link className="token-navLink" aria-current="page" to="/media">Media</Link>
-                    <Link className="token-navLink" aria-current="page" to="/press">Press</Link>
+                    {/* <Link className="token-navLink" aria-current="page" to="/news">News</Link> */}
+                    {/* <Link className="token-navLink" aria-current="page" to="/media">Media</Link>
+                    <Link className="token-navLink" aria-current="page" to="/press">Press</Link> */}
                 </div>
 
             </div>
