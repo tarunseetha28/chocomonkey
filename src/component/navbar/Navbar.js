@@ -5,8 +5,6 @@ import cmlogo from "../../../src/assets/icons/cmlogo.svg"
 import Hamburger from './Hamburger.js';
 import "./Navbar.css"
 import pdf from '../../assets/whitepaper/whitepaper.pdf'
-
-
 function Navbar() {
     const changeBackground = () => {
         console.log(window.scrollY)
